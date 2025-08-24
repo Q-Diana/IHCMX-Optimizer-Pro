@@ -1,0 +1,17 @@
+# IHCMX Optimizer Pro Configuration
+repetitions: 5
+use_gpu: true
+max_workers: 4
+dashboard: true
+
+# Optimization configuration
+optimization:
+  default_precision: "FP32"
+  default_batch_size: 32
+  default_target_latency: 0.15
+  default_target_power: 120.0
+
+# Logging configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s | %(levelname)s | %(message)s"
